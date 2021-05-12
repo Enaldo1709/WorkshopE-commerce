@@ -5,6 +5,9 @@ main {
 
   div {
     padding-top: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: center;
     figure {
       display: flex;
       flex-flow: column wrap;

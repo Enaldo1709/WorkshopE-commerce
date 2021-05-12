@@ -19,6 +19,15 @@ main {
 
 main div {
   padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 main div figure {
